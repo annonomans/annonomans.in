@@ -7,23 +7,24 @@ class Header extends Component {
 
 	render() {
         const site_title = "annonomans"
+        let message;
+        var today = new Date()
+            var curHr = today.getHours()
+
+            if (curHr < 12) {
+            message = "Good Morning !"
+            } else if (curHr < 18) {
+                message = 'Good Afternoon !'
+            } else {
+                message = 'Good Evening !'
+            }
+
     	return (	
 
-            <div>
-                <h2>Hello , {site_title}</h2>
-                <nav>
-                    <ul id="navigation">
-                        <li>
-                        <h3>Home</h3>
-                        </li>
-                        <li>
-                        <h3>About</h3>
-                        </li>
-                        <li>
-                        <h3>Contact</h3>
-                        </li>
-                    </ul>
-                </nav>
+            <div className="center">
+                <h2>Hello , {site_title} !</h2>
+                <h3>{message}</h3>
+                
             </div>
     		
     		);
