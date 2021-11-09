@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/annonomans/annonomans.in.git/static/css/main.ad960f63.chunk.css",
-    "main.js": "/annonomans/annonomans.in.git/static/js/main.d96a5c47.chunk.js",
-    "main.js.map": "/annonomans/annonomans.in.git/static/js/main.d96a5c47.chunk.js.map",
-    "runtime-main.js": "/annonomans/annonomans.in.git/static/js/runtime-main.0ff70862.js",
-    "runtime-main.js.map": "/annonomans/annonomans.in.git/static/js/runtime-main.0ff70862.js.map",
-    "static/js/2.ac994888.chunk.js": "/annonomans/annonomans.in.git/static/js/2.ac994888.chunk.js",
-    "static/js/2.ac994888.chunk.js.map": "/annonomans/annonomans.in.git/static/js/2.ac994888.chunk.js.map",
-    "static/js/3.e18b31c3.chunk.js": "/annonomans/annonomans.in.git/static/js/3.e18b31c3.chunk.js",
-    "static/js/3.e18b31c3.chunk.js.map": "/annonomans/annonomans.in.git/static/js/3.e18b31c3.chunk.js.map",
-    "index.html": "/annonomans/annonomans.in.git/index.html",
-    "service-worker.js": "/annonomans/annonomans.in.git/service-worker.js",
-    "service-worker.js.map": "/annonomans/annonomans.in.git/service-worker.js.map",
-    "static/css/main.ad960f63.chunk.css.map": "/annonomans/annonomans.in.git/static/css/main.ad960f63.chunk.css.map",
-    "static/js/2.ac994888.chunk.js.LICENSE.txt": "/annonomans/annonomans.in.git/static/js/2.ac994888.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/annonomans/annonomans.in.git/static/media/logo.103b5fa1.svg"
+    "main.css": "/annonomans/annonomans.in/static/css/main.ad960f63.chunk.css",
+    "main.js": "/annonomans/annonomans.in/static/js/main.486da890.chunk.js",
+    "main.js.map": "/annonomans/annonomans.in/static/js/main.486da890.chunk.js.map",
+    "runtime-main.js": "/annonomans/annonomans.in/static/js/runtime-main.d8885908.js",
+    "runtime-main.js.map": "/annonomans/annonomans.in/static/js/runtime-main.d8885908.js.map",
+    "static/js/2.ac994888.chunk.js": "/annonomans/annonomans.in/static/js/2.ac994888.chunk.js",
+    "static/js/2.ac994888.chunk.js.map": "/annonomans/annonomans.in/static/js/2.ac994888.chunk.js.map",
+    "static/js/3.e18b31c3.chunk.js": "/annonomans/annonomans.in/static/js/3.e18b31c3.chunk.js",
+    "static/js/3.e18b31c3.chunk.js.map": "/annonomans/annonomans.in/static/js/3.e18b31c3.chunk.js.map",
+    "index.html": "/annonomans/annonomans.in/index.html",
+    "service-worker.js": "/annonomans/annonomans.in/service-worker.js",
+    "service-worker.js.map": "/annonomans/annonomans.in/service-worker.js.map",
+    "static/css/main.ad960f63.chunk.css.map": "/annonomans/annonomans.in/static/css/main.ad960f63.chunk.css.map",
+    "static/js/2.ac994888.chunk.js.LICENSE.txt": "/annonomans/annonomans.in/static/js/2.ac994888.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/annonomans/annonomans.in/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ff70862.js",
+    "static/js/runtime-main.d8885908.js",
     "static/js/2.ac994888.chunk.js",
     "static/css/main.ad960f63.chunk.css",
-    "static/js/main.d96a5c47.chunk.js"
+    "static/js/main.486da890.chunk.js"
   ]
 }
