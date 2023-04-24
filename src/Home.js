@@ -17,6 +17,7 @@ import {
   Code as CodeIcon,
 } from "@material-ui/icons";
 import { Code, Extension } from "@material-ui/icons";
+import ProfileSection from './ProfileSection';
 
 const drawerWidth = 240;
 
@@ -74,8 +75,8 @@ const Home = () => {
           </Typography> */}
           <Typography variant="h6" align="center">
                 Hi, I'm Noman Ahmad,
-                Full-Stack Developer
-                Ruby & React
+                Full-Stack Developer,
+                Rails & React
             </Typography>
         </Box>
         <Divider />
@@ -155,7 +156,7 @@ const Home = () => {
         // </Typography>
 
         <Typography variant="body1" component="p" gutterBottom style={{ fontSize: "50px"}}>
-            <span style={{ fontFamily: "Roboto", fontWeight: 900 }}>
+            <span style={{ fontFamily: "Roboto"  }}>
                 As a full stack developer with expertise in{" "}
                 <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#f8e71c", color: "#1d1d1d" }}>
                 Rails and React frameworks
@@ -200,9 +201,10 @@ const Home = () => {
 
         )}
         {selectedSection === "profile" && (
-          <Typography variant="body1">
-            This is the Profile section.
-          </Typography>
+          // <Typography variant="body1">
+          //   This is the Profile section.
+          // </Typography>
+          <ProfileSection />
         )}
         {selectedSection === "projects" && (
           <Typography variant="body1">
