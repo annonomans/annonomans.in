@@ -22,7 +22,8 @@ const useStyles = makeStyles({
     marginBottom: '2rem',
     padding: '1rem',
     backgroundImage: `url(${bg})`,
-    backgroundPositionY: "center"
+    backgroundPositionY: "center",
+    backgroundSize: "cover"
   },
   heading: {
     marginBottom: '1rem',

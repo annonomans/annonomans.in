@@ -19,6 +19,7 @@ import {
 import { Code, Extension } from "@material-ui/icons";
 import ProfileSection from './ProfileSection';
 
+
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -34,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
   content: {
     flexGrow: 1,
-    padding: theme.spacing(3),
+    padding: theme.spacing(3)
   },
   toolbar: theme.mixins.toolbar,
   large: {
@@ -47,6 +48,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Home = () => {
   const classes = useStyles();
+  const imgUrl = 'https://tenor.com/bPJh9.gif';
   const [selectedSection, setSelectedSection] = useState("About");
 
   const handleListItemClick = (section) => {
@@ -154,51 +156,51 @@ const Home = () => {
         //     .
         // </span>
         // </Typography>
-
-        <Typography variant="body1" component="p" gutterBottom style={{ fontSize: "50px"}}>
-            <span style={{ fontFamily: "Roboto"  }}>
-                As a full stack developer with expertise in{" "}
-                <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#f8e71c", color: "#1d1d1d" }}>
-                Rails and React frameworks
-                </span>
-                , I specialize in building web applications with a focus on delivering{" "}
-                <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#44af69", color: "#fff" }}>
-                clean, maintainable, and scalable code
-                </span>
-                . I bring a strong foundation in backend development using{" "}
-                <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#3d9970", color: "#fff" }}>
-                Ruby on Rails, Postgres database, and Sidekiq
-                </span>
-                , as well as proficiency in front-end development using{" "}
-                <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#0074d9", color: "#fff" }}>
-                React, HTML, CSS, and JavaScript
-                </span>
-                . With experience in working in{" "}
-                <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#f0134d", color: "#fff" }}>
-                Agile environments
-                </span>
-                <span>
-                {" "} and I also have experience in using ,
-                </span>
-                <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor:  "#f8e71c", color: "#fff" }}>
-                {" "} RSpec 
-                </span>
-                <span> {" "} for testing and deploying applications using {" "}</span> 
-                <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor:  "#f8e71c", color: "#fff" }}>
-                {" "} Docker and GitHub CI/CD.  
-                </span>  
-                {" "} I have a{" "}
-                <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#a901db", color: "#fff" }}>
-                proven track record
-                </span>{" "}
-                of delivering high-quality software{" "}
-                <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#ff4136", color: "#fff" }}>
-                on time and within budget.
-                </span>
-                
-            </span>
-        </Typography>
-
+          <div style={{ backgroundImage: `url(${imgUrl})` }}>
+            <Typography variant="body1" component="p" gutterBottom style={{ fontSize: "50px"}}>
+              <span style={{ fontFamily: "Roboto"  }}>
+                  As a full stack developer with expertise in{" "}
+                  <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#f8e71c", color: "#1d1d1d" }}>
+                  Rails and React frameworks
+                  </span>
+                  , I specialize in building web applications with a focus on delivering{" "}
+                  <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#44af69", color: "#fff" }}>
+                  clean, maintainable, and scalable code
+                  </span>
+                  . I bring a strong foundation in backend development using{" "}
+                  <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#3d9970", color: "#fff" }}>
+                  Ruby on Rails, Postgres database, and Sidekiq
+                  </span>
+                  , as well as proficiency in front-end development using{" "}
+                  <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#0074d9", color: "#fff" }}>
+                  React, HTML, CSS, and JavaScript
+                  </span>
+                  . With experience in working in{" "}
+                  <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#f0134d", color: "#fff" }}>
+                  Agile environments
+                  </span>
+                  <span>
+                  {" "} and I also have experience in using ,
+                  </span>
+                  <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor:  "#f8e71c", color: "#fff" }}>
+                  {" "} RSpec 
+                  </span>
+                  <span> {" "} for testing and deploying applications using {" "}</span> 
+                  <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor:  "#f8e71c", color: "#fff" }}>
+                  {" "} Docker and GitHub CI/CD.  
+                  </span>  
+                  {" "} I have a{" "}
+                  <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#a901db", color: "#fff" }}>
+                  proven track record
+                  </span>{" "}
+                  of delivering high-quality software{" "}
+                  <span style={{ fontFamily: "Roboto", fontWeight: 900, backgroundColor: "#ff4136", color: "#fff" }}>
+                  on time and within budget.
+                  </span>
+                  
+              </span>
+          </Typography>
+          </div>
         )}
         {selectedSection === "profile" && (
           // <Typography variant="body1">
