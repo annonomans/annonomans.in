@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/annonomans.in/static/css/main.62d40d5d.css",
+    "main.js": "/annonomans.in/static/js/main.0be6b74c.js",
+    "static/js/377.d9146cef.chunk.js": "/annonomans.in/static/js/377.d9146cef.chunk.js",
+    "static/media/bg.jpg": "/annonomans.in/static/media/bg.d7433f1c07c5e775ace0.jpg",
+    "static/media/education.png": "/annonomans.in/static/media/education.f2b17182ccfcdf1d7199.png",
+    "static/media/ruby.png": "/annonomans.in/static/media/ruby.8596bc760be3dcfa22eb.png",
+    "static/media/skills.png": "/annonomans.in/static/media/skills.89e83b20fb48dc41cfaa.png",
+    "static/media/educationUni.png": "/annonomans.in/static/media/educationUni.386fe7da3eb2a2be8d55.png",
+    "static/media/database-storage.png": "/annonomans.in/static/media/database-storage.3267327599a9011812b1.png",
+    "static/media/merge.png": "/annonomans.in/static/media/merge.965a71aad6ba8c5826e8.png",
+    "static/media/rails.png": "/annonomans.in/static/media/rails.c87f032e560c7a8da82c.png",
+    "static/media/docker.png": "/annonomans.in/static/media/docker.c1f953a3ead577c05d04.png",
+    "static/media/javascript.png": "/annonomans.in/static/media/javascript.78206ba65e01c7d57080.png",
+    "static/media/logo.svg": "/annonomans.in/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/annonomans.in/index.html",
+    "main.62d40d5d.css.map": "/annonomans.in/static/css/main.62d40d5d.css.map",
+    "main.0be6b74c.js.map": "/annonomans.in/static/js/main.0be6b74c.js.map",
+    "377.d9146cef.chunk.js.map": "/annonomans.in/static/js/377.d9146cef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62d40d5d.css",
+    "static/js/main.0be6b74c.js"
+  ]
+}
