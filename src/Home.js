@@ -18,23 +18,68 @@ import {
 } from "@material-ui/icons";
 import { Code, Extension } from "@material-ui/icons";
 import ProfileSection from './ProfileSection';
+import QRCodeGenerator from "./QRCodeGenerator";
 
 const drawerWidth = 240;
+
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     display: "flex",
+//   },
+//   drawer: {
+//     width: drawerWidth,
+//     flexShrink: 0,
+//   },
+//   drawerPaper: {
+//     width: drawerWidth,
+//   },
+//   content: {
+//     flexGrow: 1,
+//     padding: theme.spacing(3)
+//   },
+//   toolbar: theme.mixins.toolbar,
+//   large: {
+//     width: theme.spacing(15),
+//     height: theme.spacing(15),
+//     margin: "0 auto",
+//     marginBottom: theme.spacing(3),
+//   },
+// }));
 
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
+    [theme.breakpoints.down("sm")]: {
+      flexDirection: "column",
+    },
   },
   drawer: {
     width: drawerWidth,
     flexShrink: 0,
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+    },
   },
   drawerPaper: {
     width: drawerWidth,
+    [theme.breakpoints.down("sm")]: {
+      // width: "100%",
+    },
   },
   content: {
     flexGrow: 1,
     padding: theme.spacing(3),
+    [theme.breakpoints.down("sm")]: {
+      padding: theme.spacing(1),
+    },
+    transition: theme.transitions.create(["margin"], {
+      easing: theme.transitions.easing.sharp,
+      duration: theme.transitions.duration.leavingScreen,
+    }),
+    marginLeft: -drawerWidth,
+    [theme.breakpoints.up("md")]: {
+      marginLeft: 0,
+    }
   },
   toolbar: theme.mixins.toolbar,
   large: {
@@ -42,6 +87,11 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(15),
     margin: "0 auto",
     marginBottom: theme.spacing(3),
+    [theme.breakpoints.down("sm")]: {
+      width: theme.spacing(10),
+      height: theme.spacing(10),
+      marginBottom: theme.spacing(1),
+    },
   },
 }));
 
@@ -77,7 +127,7 @@ const Home = () => {
                 Hi, I'm Noman Ahmad,
                 Full-Stack Developer,
                 Rails & React
-            </Typography>
+          </Typography>
         </Box>
         <Divider />
         <List>
@@ -112,6 +162,7 @@ const Home = () => {
             <ListItemText primary="Projects" />
           </ListItem>
         </List>
+        <QRCodeGenerator/>
       </Drawer>
       <main className={classes.content}>
         <Box className={classes.toolbar} />

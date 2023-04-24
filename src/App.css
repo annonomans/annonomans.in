@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media (max-width: 959.95px) {
+.makeStyles-root-1 {
+    flex-direction: inherit;
+  }
+}
